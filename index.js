@@ -19,6 +19,6 @@ app.get("/",function(req,res){
   res.render("advice",{AdviceNumber: id , Advicemssg: mssg});
 })
 
-app.listen(3000,function(req,res){
+app.listen(80,function(req,res){
   console.log("Server started");
 })
